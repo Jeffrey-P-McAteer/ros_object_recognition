@@ -156,7 +156,7 @@ add_executable(${PROJECT_NAME}_distance_filter_node
   )
 set_target_properties(${PROJECT_NAME}_distance_filter_node PROPERTIES OUTPUT_NAME distance_filter_node PREFIX "")
 target_link_libraries(${PROJECT_NAME}_distance_filter_node
-  ${catkin_LIBRARIES}
+  ${catkin_LIBRARIES} vtkGUISupportQt-6.2
 )
 
 add_executable(${PROJECT_NAME}_distance_shape_definition
@@ -164,7 +164,7 @@ add_executable(${PROJECT_NAME}_distance_shape_definition
   )
 set_target_properties(${PROJECT_NAME}_distance_shape_definition PROPERTIES OUTPUT_NAME distance_shape_definition PREFIX "")
 target_link_libraries(${PROJECT_NAME}_distance_shape_definition
-  ${catkin_LIBRARIES}
+  ${catkin_LIBRARIES} vtkGUISupportQt-6.2
 )
 
 add_executable(${PROJECT_NAME}_distance_shape_detection
@@ -172,7 +172,7 @@ add_executable(${PROJECT_NAME}_distance_shape_detection
   )
 set_target_properties(${PROJECT_NAME}_distance_shape_detection PROPERTIES OUTPUT_NAME distance_shape_detection PREFIX "")
 target_link_libraries(${PROJECT_NAME}_distance_shape_detection
-  ${catkin_LIBRARIES}
+  ${catkin_LIBRARIES} vtkGUISupportQt-6.2
 )
 
 add_executable(${PROJECT_NAME}_shape_detector_node
@@ -180,7 +180,7 @@ add_executable(${PROJECT_NAME}_shape_detector_node
   )
 set_target_properties(${PROJECT_NAME}_shape_detector_node PROPERTIES OUTPUT_NAME shape_detector_node PREFIX "")
 target_link_libraries(${PROJECT_NAME}_shape_detector_node
-  ${catkin_LIBRARIES}
+  ${catkin_LIBRARIES} vtkGUISupportQt-6.2
 )
 
 #############

@@ -14,10 +14,16 @@ docker run \
 # run catkin_make in /ws/ to build
 
 
+# sh -c /ws/build/object_detection_3d_nodes/CMakeFiles/object_detection_3d_nodes_distance_filter_node.dir/link.txt
+
+
 # catkin_make -lQVTK -lvtkGUISupportQt-6.2 -lvtkGUISupportQtOpenGL-6.2 -lvtkViewsCorePython27D-6.2 -lvtkCommonCorePython27D-6.2
 
 # apt-get install ninja ; catkin_make --use-ninja
 
 # apt-get install qt5-default
+# apt-get install libvtk5-dev libvtk5-qt4-dev libvtk5.10 libvtk5.10-qt4
+# apt-get install libvtk6-dev libvtk6-qt-dev libvtk6.2 libvtk6.2-qt 
+
 
 
