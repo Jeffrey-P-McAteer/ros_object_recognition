@@ -42,6 +42,7 @@ QT5_WRAP_UI(MOC_GUI_H ${FORM_FILES})
 ## You might have to alter VTK_DIR depending on your specific build path.
 set(VTK_DIR "/usr/lib/cmake/vtk-6.2")
 find_package(VTK_REQUIRED)
+SET(VTK_USE_FILE "/usr/lib/cmake/vtk-6.2/UseVTK.cmake")
 include(${VTK_USE_FILE})
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
